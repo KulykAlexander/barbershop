@@ -13,25 +13,87 @@
 </head>
 <body>
     <header class="header">
-        <a href="/" class="header-logo">
-            <svg class="logo-icon"  width="68" height="55">
-              <use href="./images/icons.svg#icon-logo"></use>
-            </svg>
-        </a>
-        <nav class="header-nav">
-            <ul>
-                <li><a href="" class="header-link link">About</a></li>
-                <li><a href="" class="header-link link">Services and prices</a></li>
-                <li><a href="" class="header-link link">Barbers</a></li>
-                <li><a href="" class="header-link link">Contacts</a></li>
+        <div class="container"></div>
+            <a href="/" class="header-logo">
+                <svg class="logo-icon"  width="68" height="55">
+                <use href="./images/icons.svg#icon-logo"></use>
+                </svg>
+            </a>
+            <nav class="header-nav">
+                <ul>
+                    <li><a href="" class="header-link link">About</a></li>
+                    <li><a href="" class="header-link link">Services and prices</a></li>
+                    <li><a href="" class="header-link link">Barbers</a></li>
+                    <li><a href="" class="header-link link">Contacts</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+380441111111" class="header-tel">+38 044 111 11 11</a>
+            <button type="button" class="header-btn">Online-booking</button>
+
+            <button type="button" class="menu-btn btn" data-menu-open>
+                <svg class="mob-menu-icon"  width="40" height="40">
+                <use href="./images/icons.svg#icon-menu"></use>
+                </svg>
+                </button>
+            <div class="mob-menu is-hidden" data-menu>
+            <div class="container">
+            <div class="mob-menu-top">
+                <button type="button" class="menu-btn menu-btn-close btn" data-menu-close>
+                <svg class="mob-menu-icon"  width="40" height="40">
+                <use href="./images/icons.svg#icon-menu-close"></use>
+                </svg>
+                </button>
+                <nav class="mob-menu-navigation">
+                <ul class="mob-menu-list list">
+                    <li class="mob-menu-item">
+                    <a href="index.html" class="mob-menu-link link current">About</a>
+                    </li>
+                    <li class="mob-menu-item">
+                    <a href="portfolio.html" class="mob-menu-link link">Services and prices</a>
+                    </li>
+                    <li class="mob-menu-item"><a href=" " class="mob-menu-link link">Barbers</a>
+                    </li>
+                    <li class="mob-menu-item"><a href=" " class="mob-menu-link link">Contacts</a>
+                    </li>                
+                </ul>
+                </nav>
+            </div>
+
+            <div class="mob-connect">
+                <a href="tel:+380441111111" class="header-tel">+38 044 111 11 11</a>
+                <button type="button" class="header-btn">Online-booking</button>
+
+                <ul class="mob-soc-list list">
+                <li class="mob-soc-item">
+                <a
+                    href=""
+                    class="mob-soc-link link"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    >Instagram</a
+                >
+                </li>
+                <li class="mob-soc-item">
+                <li class="mob-soc-item">
+                <a
+                    href=""
+                    class="mob-soc-link link"
+                    target="_blank"
+                    rel="noopener noreferrer nofollow"
+                    >Youtube</a
+                >
+                </li>
             </ul>
-        </nav>
-        <a href="tel:+380441111111" class="header-tel">+38 044 111 11 11</a>
-        <button type="button" class="header-btn">Online-booking</button>
+            </div>
+            
+            </div>
+            </div>
+        </div>
     </header>
     <main>
         <!--Hiro -->
-        <section>
+        <section class="section">
+            <div class="container">
             <ul>
                 <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
                 <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
@@ -39,9 +101,11 @@
             <p>A hair salon for men in Kyiv</p>
             <h1>BarberShop</h1>
             <p>We are experts in trendy men’s haircuts. We work quickly, carefully and with style.</p>
+            </div>
         </section>
         <!--About-->
-        <section>
+        <section class="section">
+            <div class="container">
             <ul>
                 <li><img src="./images/hairdo1.jpg" alt="hairdo" width="270" height="445"></li>
                 <li><img src="./images/hairdo2.jpg" alt="hairdo" width="270" height="445"></li>
@@ -51,9 +115,11 @@
             <p>If you want to add more confidence to your image, you should definitely visit us.</p>
             <p>We are a team that never stops at what has been achieved and are thirsty for changes. And when you fall into the hands of our master, you will never be the same again. We are a team that is always "on the same wave" with clients. Therefore, we are always ready to improve everyone who comes to us!</p>
             <button type="button">Online-booking</button>
+            </div>
         </section>
         <!--Services and prices-->
-        <section>
+        <section class="section">
+            <div class="container">
             <p>Spend your time with the best masters</p>
             <h2>Services and prices</h2>
             <ul>
@@ -93,9 +159,11 @@
                 </li>
             </ul>
             <button type="button">Online-booking</button>
+            </div>
         </section>
         <!--Why people come to us?-->
-        <section>
+        <section class="section">
+            <div class="container">
             <ul>
                 <li>
                     <span>600</span><sup>+</sup>
@@ -117,9 +185,11 @@
             <p>Old traditional school</p>
             <h2>Why people come to us?</h2>
             <p>Only good things are said about us. But it's better to see and feel 1 time than read 10 times. </p>
+            </div>
         </section>
         <!--Our barbers-->
-        <section>
+        <section class="section">
+            <div class="container">
             <p>For true enjoyers of the atmosphere</p>
             <h2>Our barbers</h2>
             <ul>
@@ -139,9 +209,11 @@
                     <p>Extreme barber</p>
                 </li>
             </ul>
+            </div>
         </section>
         <!--Portfolio-->
-        <section>
+        <section class="section">
+            <div class="container">
             
             <h2>Portfolio</h2>
             <p>In Latin, "barba" means "beard"</p>
@@ -151,9 +223,11 @@
                 <li><img src="./images/Rectangle3.jpg" alt="hairdo" width="270" height="360"></li>
                 <li><img src="./images/Rectangle4.jpg" alt="hairdo" width="270" height="360"></li>
             </ul>
+            </div>
         </section>
         <!--Contacts-->
-        <section>
+        <section class="section">
+            <div class="container">
             <h2>Contacts</h2>
             <address>
                 <a href="https://goo.gl/maps/Uscj242S52SbDeGm8" 
@@ -164,16 +238,20 @@
             </address>
             <p>Working hours</p>
             <p>Every day from 9:00 to 22:00</p>
+            </div>
         </section>
     </main>
 
-    <footer>
+    <footer class="footer">
+        <div class="container">
         <p>&#169;Copyright 2020</p>
         <ul>
                 <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Instagram</a></li>
                 <li><a href="" target="_blank" rel="noopener noreferrer nofollow">Youtube</a></li>
             </ul>
-
+        </div>
     </footer>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
 </body>
 </html>
